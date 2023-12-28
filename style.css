@@ -11,7 +11,7 @@ body {
 }
 
 .main {
-    background-image: url("assets/images/bg.jpg");
+    background-image: url("https://masterbundles.com/wp-content/uploads/2023/03/inline-01--364.jpg");
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
@@ -20,12 +20,13 @@ body {
 }
 
 .main .box {
-    height: 644px;
+    height: 750px;
     width: 100%;
     opacity: 0.69;
     position: absolute;
     top: 0;
-    background-color: black;
+     background-color: black; 
+     background-size: cover;
 }
 
 nav {
@@ -59,7 +60,7 @@ nav button {
     color: white;
     position: relative;
     gap: 23px;
-    padding: 0 30px;
+    padding: 0 30px; 
 }
 
 .hero> :nth-child(1) {
@@ -86,6 +87,7 @@ nav button {
     background-color: rgb(46, 44, 44);
     position: relative;
     z-index: 20;
+    background-size: cover;
 }
 
 .btn {
@@ -192,6 +194,10 @@ section.first>div :nth-child(2) {
     color: white;
 }
 
+
+
+
+
 .faqbox svg {
     filter: invert(1);
 }
@@ -244,6 +250,9 @@ footer .questions {
 
     .secImg video {
         width: 305px;
+    }
+    .hero{
+        background: url("https://masterbundles.com/wp-content/uploads/2023/03/inline-01--364.jpg");
     }
 
     .hero> :nth-child(1) {
